@@ -1,0 +1,117 @@
+body {
+	/*margin: 0px;*/
+}
+
+.navbar1 {
+	position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.text-vcenter {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.text-vcenter h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	opacity: .85;
+}
+
+.parallax-home {
+    /* background image for home section */
+    background-image: url("images/captain_planet_wallpaper.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+
+.parallax-trainer {
+    /* background image for home section */
+    background-image: url("images/trainer-vs-trainer.jpg");
+   
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.parallax-gallery {
+    /* background image for home section */
+    background-image: url("images/pokeball-glow.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.parallax-pokeinfo {
+    /* background image for home section */
+    background-image: url("images/water-earth-fire.png");
+ 
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.parallax-contact {
+    /* background image for home section */
+    background-image: url("images/captain-planet-logo.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+
+.text {
+	height:500px;
+	background-color: gold;
+	font-size:36px;
+	width: 100%;
+}
