@@ -22,6 +22,16 @@ body {
 	opacity: .85;
 }
 
+.text-trainer {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.trainer-grid {
+    
+}
+
 .parallax-home {
     /* background image for home section */
     background-image: url("images/captain_planet_wallpaper.jpg");
@@ -129,7 +139,8 @@ body {
 
 .text {
 	height:500px;
-	background-color: gold;
+	/*background-color: gold;*/
 	font-size:36px;
 	width: 100%;
+    flex-wrap: wrap;
 }

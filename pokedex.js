@@ -116,7 +116,7 @@ $(document).ready(function() {
 				// console.log(newPlaneteer.pName);
 				
 					
-
+				
 				//access arrays with data to set different pokemon
 				// let earthPlaneteer = new PokemonPlaneteer('Lavitar');
 				// let waterPlaneteer = new PokemonPlaneteer('Wartortle');
