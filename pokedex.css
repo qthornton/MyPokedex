@@ -40,6 +40,24 @@ body {
 
 }
 
+.parallax-intro {
+    /* background image for intro section */
+    background-image: url("images/captainplanet-update.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+
 .parallax-trainer {
     /* background image for home section */
     background-image: url("images/trainer-vs-trainer.jpg");

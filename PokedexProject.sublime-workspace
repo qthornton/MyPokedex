@@ -1,0 +1,401 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getInfo"
+			],
+			[
+				"war",
+				"wartortleInfo"
+			],
+			[
+				"la",
+				"lavitarInfo"
+			],
+			[
+				"tr",
+				"Trainer"
+			],
+			[
+				"train",
+				"trainerContainer"
+			],
+			[
+				"displ",
+				"displayTrainer"
+			],
+			[
+				"display",
+				"displayData"
+			],
+			[
+				"pr",
+				"priority"
+			],
+			[
+				"sp",
+				"speed"
+			],
+			[
+				"d",
+				"defense"
+			],
+			[
+				"zGall",
+				"zGalleryWater"
+			],
+			[
+				"push",
+				"pushAbilitiesArr"
+			],
+			[
+				"Poke",
+				"PokemonPlaneteer"
+			],
+			[
+				"tH",
+				"tHairColor"
+			],
+			[
+				"media",
+				"media-heading"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"my",
+				"myLeoHoroscope"
+			],
+			[
+				"div",
+				"divDate"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"Dr",
+				"Differ"
+			],
+			[
+				"D",
+				"Differ"
+			],
+			[
+				"styl",
+				"stylesheet"
+			],
+			[
+				"user",
+				"userTemp"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"top",
+				"topMovieThree"
+			],
+			[
+				"mat",
+				"mathProduct"
+			],
+			[
+				"math",
+				"mathProduct"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Munder Difflin Paper project"
+	],
+	"file_history":
+	[
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokedex.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokedex.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 27/IntroRuby_Classes.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 27/RubyWorkshop.rb",
+		"/C/Users/Anquinette/Desktop/demo.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokemon.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokemon_Fellowship_Gym/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/script/main.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/template.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/styles/stylesheet.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/pages/page1.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/pages/trainer.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/pages/pokedex.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Munder Difflin Paper project/style/stylesheet.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Munder Difflin Paper project/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/styles/font-awesome.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 21/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 21/main.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 21/main.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 4/waterfalls/waterfall.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 17 - Ajax JSON/index.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 4/waterfalls/waterfall.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 17 - Ajax JSON/index.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 17 - Ajax JSON/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Munder Difflin Paper project/script/main.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 15/gifgenerator.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 15/gifgenerator.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 15/gifgenerator.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 14/oop-example-1.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 14/math-oop.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 14/toggleme.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 14/toggleme.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 14/toggleme.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 6 - Github/Group Exercise/achilles-kids.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 6 - Github/Group Exercise/achilles-kids.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 9/javascriptFUN.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Munder Difflin Paper project/html/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Munder Difflin Paper project/styles/stylesheet.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 10/rockpaperscissors_debug.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 8 - Functions/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Munder Difflin Paper project/script/index.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 3/fashion/fashion.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 4/startup-matchmaker-flexbox/flexbox.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 4/startup-matchmaker-flexbox/flexbox.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 3/Animation/animateme.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 3/Animation/animateme.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 3/fashion/fashion.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 7 - Javascript/main.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 8 - Functions/main.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Class Downloads/JavaScriptFUN.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 9/stylesheet.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 9/javascriptFUN.js",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 8 - Functions/stylesheet.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 7 - Javascript/javascript-practice.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 7 - Javascript/javascript-practice.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 1/AcmeCorp/acme-corp.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 1/AcmeCorp/styles/style.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 6/achilles-kids.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 6/achilles-kids.html",
+		"/C/Users/Anquinette/Desktop/The_Fellowship/fellowship.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/git/git-practice.html",
+		"/C/Users/Anquinette/Desktop/The_Fellowship/fellowship.html",
+		"/C/Users/Anquinette/Desktop/Foundations Project/profile.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 3/Flex Box/flexingMyBox.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 3/Flex Box/flexingMyBox.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">>",
+			"50",
+			"section",
+			"onclick=\"userInput(event, 'Virgo')\"",
+			" onclick=\"userInput(event, 'Taurus')\"",
+			" onclick=\"userInput(event, 'Scorpion')\"",
+			" onclick=\"userInput(event, 'Sagittarius')",
+			" onclick=\"userInput(event, 'Pisces')\"",
+			"onclick=\"userInput(event, 'Libra')\"",
+			"onclick=\"userInput(event, 'Leo')",
+			"onclick=\"userInput(event, 'Gemini')\"",
+			"onclick=\"userInput(event, 'Capricorn')\"",
+			"onclick=\"userInput(event, 'Cancer')\"",
+			"onclick=\"userInput(event, 'Aries')",
+			"onclick=\"userInput(event, 'Aquarius')",
+			"onclick=\"userInput(event",
+			" onclick=\"userInput(event, 'Aries",
+			"id=\"hide\" ",
+			"<button id=\"show\">Back</button>",
+			"button",
+			"section",
+			"dbj8aok"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"container"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.555327266249,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "PokedexProject.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
