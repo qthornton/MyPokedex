@@ -9,9 +9,13 @@ body {
     border: 1px solid transparent;
 }
 
-.text-vcenter {
+.text-allcenter {
 	text-align: center;
 	vertical-align: middle;
+}
+
+.text-block-align{
+    text-align: center;
 }
 
 .text-vcenter h1 {
@@ -20,6 +24,10 @@ body {
 	margin: 0;
 	padding: 0;
 	opacity: .85;
+}
+
+li {
+    list-style-type: none;
 }
 
 .text-trainer {
@@ -37,7 +45,7 @@ body {
     background-image: url("images/captain_planet_wallpaper.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -55,7 +63,7 @@ body {
     background-image: url("images/captainplanet-update.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -73,7 +81,7 @@ body {
     background-image: url("images/trainer-vs-trainer.jpg");
    
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -90,7 +98,7 @@ body {
     background-image: url("images/pokeball-glow.png");
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -107,7 +115,7 @@ body {
     background-image: url("images/water-earth-fire.png");
  
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -124,7 +132,7 @@ body {
     background-image: url("images/captain-planet-logo.png");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 650px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -137,8 +145,8 @@ body {
 }
 
 
-.text {
-	height:500px;
+.text-block {
+	height:600px;
 	/*background-color: gold;*/
 	font-size:36px;
 	width: 100%;

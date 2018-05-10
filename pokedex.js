@@ -21,10 +21,10 @@ $(document).ready(function() {
 
 
 		//custom method to return a Pokemon object with values for the Pokemon it found, 1 param
-		get(pName) {
+		get(name) {
 			for (let i=0; i < this.myPlaneteers.length; i++) {
-				let planeteerName = this.myPlanteers[i].pName;
-					if (planeteerName == pName) {
+				let planeteerName = this.myPlanteers[i].name;
+					if (planeteerName == name) {
 						return this.myPlaneteers[i];
 					}
 			}
@@ -37,24 +37,24 @@ $(document).ready(function() {
 
 	//object that stores each Pokemon with properties
 	class PokemonPlaneteer {
-		constructor(data){
-		// constructor (pName,num,pImg,pHeight,pWeight,hP,attack,sAttack,defense,sDefense,speed,abilities,moves,priority,power,accurancy) {
-			this.pName = data.pName;
-			this.num = data.num;
-			this.pImg = data.pImg;
-			this.pHeight = data.pHeight;
-			this.pWeight = data.pWeight;
-			this.hP = data.hP;
-			this.attack = data.attack;
-			this.sAttack = data.sAttack;
-			this.defense = data.defense;
-			this.sDefense = data.sDefense;
-			this.speed = data.speed;
-			this.abilities = data.abilities;
-			this.moves = data.moves;
-			this.priority = data.priority;
-			this.power = data.power;
-			this.accurancy = data.accurancy;
+		// constructor(pInfo){
+		constructor (pName,num,pImg,pHeight,pWeight,hP,attack,sAttack,defense,sDefense,speed,abilities,moves,priority,power,accurancy) {
+			this.pName = pName;
+			this.num = num;
+			this.pImg = pImg;
+			this.pHeight = pHeight;
+			this.pWeight = pWeight;
+			this.hP = hP;
+			this.attack = attack;
+			this.sAttack = sAttack;
+			this.defense = defense;
+			this.sDefense = sDefense;
+			this.speed = speed;
+			this.abilities = abilities;
+			this.moves = moves;
+			this.priority = priority;
+			this.power = power;
+			this.accurancy = accurancy;
 		} //closes constructor
 	} //closes class PokemonPlaneteer
 
@@ -88,7 +88,7 @@ $(document).ready(function() {
 					}
 
 				//puts Json data into the class objects
-				let data = {
+				let pInfo = {
 					//add the pokemon class 
 					'pName': pushNameArr,
 					'num': response.data.id,
@@ -108,21 +108,13 @@ $(document).ready(function() {
 					'accurancy': response.data.moves[0].move.url.accurancy
 				}
 
-				let newPlaneteer = new PokemonPlaneteer(data);
+				let newPlaneteer = new PokemonPlaneteer(pInfo);
 
 				// pushes pokemon data to classes
-				spawnhellraiser.myPlaneteers.push(newPlaneteer);
-				console.log(spawnhellraiser);
-				// console.log(newPlaneteer.pName);
+				spawnhellraiser.myPlaneteers.push(pInfo);
 				
-					
-				
-				//access arrays with data to set different pokemon
-				// let earthPlaneteer = new PokemonPlaneteer('Lavitar');
-				// let waterPlaneteer = new PokemonPlaneteer('Wartortle');
-				// let windPlaneteer = new PokemonPlaneteer('Pidgey');
-				// let firePlaneteer = new PokemonPlaneteer('Vulpix');
-				// let heartPlaneteer = new PokemonPlaneteer('Mewtwo');
+				//console.log from here means you will see the print 5 times instead of once
+
 
 			}) //closes .then
 
@@ -136,28 +128,28 @@ $(document).ready(function() {
 	}; //close getInfo function
 	
 
-	//defines data for Trainer and Pokemon Objects
+	//new instances for Trainer and Pokemon Objects
 	let spawnhellraiser = new Trainer('Spawnhellraiser', 'female', "5'4", '352lbs', 'brown', 'brown', 
 		4, 7000, 
 		'My nickname is Captain PokéPlanet. I play Pokémon X on Nintendo 3DS XL. Ive been training for 2 years.', this.myPlaneteers);
-
+	
+	let lavitar = new PokemonPlaneteer('lavitar',246);
+	let wartortle = new PokemonPlaneteer('wartortle',8);
+	let pidgey = new PokemonPlaneteer('pidgey',16);
+	let vulpix = new PokemonPlaneteer('vulpix',37);
+	let mewtwo = new PokemonPlaneteer('mewtwo',150);
 
 	//pushes pokemon values for API
-	let lavitarInfo = getInfo('Lavitar',246);
-	let wartortleInfo = getInfo('Wartortle',8);
-	let pidgeyInfo = getInfo('Pidgey',16);
-	let vulpixInfo = getInfo('Vulpix',37);
-	let mewtwoInfo = getInfo('Mewtwo',150);
+	getInfo(lavitar,246);
+	getInfo(wartortle,8);
+	getInfo(pidgey,16);
+	getInfo(vulpix,37);
+	getInfo(mewtwo,150);
 
-	
-
-	//testing Pokemon class
-	// console.log(earthPlaneteer);
-	// console.log(waterPlaneteer);
-	// console.log(windPlaneteer);
-	// console.log(firePlaneteer);
-	// console.log(heartPlaneteer);
-
+	//calling all data
+	console.log(lavitar.pName);
+	console.log(spawnhellraiser);
+	console.log(spawnhellraiser.myPlaneteers);
 
 	//DEFINE VALUES FOR ALL BUTTONS AND HTML
 		//Trainer Stats - popup table
@@ -186,8 +178,8 @@ $(document).ready(function() {
 	let zGalleryHeart = $('#zGalleryHeart'); //click on Mewtwo
 
 		//Pokemon Stats - Popup Table
-	let zPname = $('#zPname');
-	let zNum = $('#zNum');
+	let zname = $('#zname');
+	let zid = $('#zid');
 	let zImg = $('#zImg');
 	let zHeight = $('#zHeight');
 	let zWeight = $('#zWeight');
@@ -229,53 +221,53 @@ $(document).ready(function() {
 
 
 
-	//DEFINE A FUNCTION TO UPDATE HTML
-		//Update Pokemon HTML
-		function updatePHTML(PokemonPlaneteer){
-			let thePlaneteers = spawnhellraiser.get(planeteers);
-			pImg.attr('src', 'images/' + pokemon + '.png');
-			pName.text(myPlaneteers.pName);
-			img.attr('src',myPlaneteers.img); //Set
-			num.text(myPlaneteers.num);
-			pHeight.text(myPlaneteers.pHeight);
-			pWeight.text(myPlaneteers.pWeight);
-			hP.text(myPlaneteers.hP);
-			attack.text(myPlaneteers.attack);
-			sAttack.text(myPlaneteers.sAttack);
-			defense.text(myPlaneteers.defense);
-			sDefense.text(myPlaneteers.sDefense);
-			speed.text(myPlaneteers.speed);
-			abilities.text(myPlaneteers.abilities);
-			moves.text(myPlaneteers.moves);
-			priority.text(myPlaneteers.priority);
-			power.text(myPlaneteers.power);
-			accurancy.text(myPlaneteers.accurancy);
+	// //DEFINE A FUNCTION TO UPDATE HTML
+	// 	//Update Pokemon HTML
+	// 	function updatePHTML(PokemonPlaneteer){
+	// 		let thePlaneteers = spawnhellraiser.get(planeteers);
+	// 		pImg.attr('src', 'images/' + pokemon + '.png');
+	// 		name.text(myPlaneteers.name);
+	// 		img.attr('src',myPlaneteers.img); //Set
+	// 		id.text(myPlaneteers.id);
+	// 		pHeight.text(myPlaneteers.pHeight);
+	// 		pWeight.text(myPlaneteers.pWeight);
+	// 		hP.text(myPlaneteers.hP);
+	// 		attack.text(myPlaneteers.attack);
+	// 		sAttack.text(myPlaneteers.sAttack);
+	// 		defense.text(myPlaneteers.defense);
+	// 		sDefense.text(myPlaneteers.sDefense);
+	// 		speed.text(myPlaneteers.speed);
+	// 		abilities.text(myPlaneteers.abilities);
+	// 		moves.text(myPlaneteers.moves);
+	// 		priority.text(myPlaneteers.priority);
+	// 		power.text(myPlaneteers.power);
+	// 		accurancy.text(myPlaneteers.accurancy);
 
-		};
-		//Update Trainer HTML
-		function displayTrainer(trainer){
-			zTname.text(trainer.myName);
-			zTimg.attr('src', 'images/trainer.jpg') //set image - done
-			zTgender.text(trainer.gender);
-			zTheight.text(trainer.myHeight);
-			zTweight.text(trainer.myWeight);
-			zTeyecolor.text(trainer.myEyeColor);
-			zThaircolor.text(trainer.myLvl);
-			zTlvl.text(trainer.myExp);
-			zTbio.show(1500).css('display', 'flex');
+	// 	};
+	// 	//Update Trainer HTML
+	// 	function displayTrainer(trainer){
+	// 		zTname.text(trainer.name);
+	// 		zTimg.attr('src', 'images/trainer.jpg') //set image - done
+	// 		zTgender.text(trainer.gender);
+	// 		zTheight.text(trainer.myHeight);
+	// 		zTweight.text(trainer.myWeight);
+	// 		zTeyecolor.text(trainer.myEyeColor);
+	// 		zThaircolor.text(trainer.myLvl);
+	// 		zTlvl.text(trainer.myExp);
+	// 		zTbio.show(1500).css('display', 'flex');
 
-		};
+	// 	};
 
-	//DEFINE A FUNCTION TO DISPLAY POKEMON DATA
-		function displayData(PokemonPlaneteer) {
-			let pIcon = '#' + planeteers + 'Img'; //icon Set
-			let pText = '#' + planeteers + 'Text';
-			$(targetIcon).attr('src', 'images/').css('maxWidth', '76px');
-			$(targetText).text('Not ready to fight! Let us warm up...');
-			updatePHTML(planeteers);
-			$(targetIcon).attr('src', 'images/' + planeteers + '.png');
-			$(targetText).text(planeteers)
-		};
+	// //DEFINE A FUNCTION TO DISPLAY POKEMON DATA
+	// 	function displayData(PokemonPlaneteer) {
+	// 		let pIcon = '#' + planeteers + 'Img'; //icon Set
+	// 		let pText = '#' + planeteers + 'Text';
+	// 		$(targetIcon).attr('src', 'images/').css('maxWidth', '76px');
+	// 		$(targetText).text('Not ready to fight! Let us warm up...');
+	// 		updatePHTML(planeteers);
+	// 		$(targetIcon).attr('src', 'images/' + planeteers + '.png');
+	// 		$(targetText).text(planeteers)
+	// 	};
 
 
 	//LISTEN FOR BUTTON RESPONSES TO RUN POKEMON DISPLAY FUNCTION
@@ -327,9 +319,4 @@ $(document).ready(function() {
 
 
 		
-
-
-
-
-
 }); //End of AJAX Method
