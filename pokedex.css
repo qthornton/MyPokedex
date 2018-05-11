@@ -37,7 +37,23 @@ li {
 }
 
 .trainer-grid {
-    
+    /*change grid attributes for Trainer*/
+}
+
+.pokemon-grid {
+    /*change grid attributes for Pokemon Stat box*/
+}
+
+.p-gallery {
+    /*Change paragraph text after button */
+}
+
+.text-block {
+    height:600px;
+    /*background-color: gold;*/
+    font-size:16px;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .parallax-home {
@@ -142,13 +158,4 @@ li {
     -webkit-background-size: cover;
   	-moz-background-size: cover;
 	-o-background-size: cover;
-}
-
-
-.text-block {
-	height:600px;
-	/*background-color: gold;*/
-	font-size:36px;
-	width: 100%;
-    flex-wrap: wrap;
 }

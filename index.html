@@ -87,18 +87,14 @@
 									<div class="row">
 										<div class="col-sm-4" style="background-color:lavender;">
 											<h4>Stats</h4>
-											<p><span class="trainer-grid">Trainer: </span><span id="zTname"></span></p>
-									    	<p><span class="trainer-grid">Gender: </span><span id="zTgender"></span></p>
-									    	<p><span class="trainer-grid">Height: </span><span id="zTheight"></span></p>
-									    	<p><span class="trainer-grid">Weight: </span><span id="zTweight"></span></p>
-									    	<p><span class="trainer-grid">Eye Color: </span><span id="zTeyecolor"></span></p>
-									    	<p><span class="trainer-grid">Hair Color: </span><span id="zThaircolor"></span></p>
+											<br>
+											<button type="button" id="zTrainerBtn">View Stats</button>
 										</div>
 										<div class="col-sm-4" style="background-color:lavenderblush;">
 											<h4>Advanced Info</h4>
-											<p><span class="trainer-grid">Level: </span><span id="zTlvl"></span></p>
-									    	<p><span class="trainer-grid">Exp: </span><span id="zTexp"></span></p>
-									    	<p><span class="trainer-grid">Bio: </span><span id="zTbio"></span></p>
+											<span>
+												
+											</span>
 										</div>
 										<div class="col-sm-4" style="background-color:lavender;">
 											<h4>Progress Bar</h4>
@@ -125,17 +121,24 @@
 <!-- Third Section: Pokedex Gallery -->
 	<div id="gallery" class="container-text">
 		<section>
-			<div class="text-block text-block-center">
+			<div class="text-block text-block-align">
 				<h1>Planeteer Gallery</h1>
 				<hr>
-				<div class="row">
-				    <div class="col-sm-2" style="background-color:lavender;"><img src="images/Wartortle.png"><br><button id="zGalleryWater" class="">Wartortle</button></div>
-				    <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2</div>
-				    <div class="col-sm-2" style="background-color:lavender;">.col-sm-2</div>
-				    <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2</div>
-				    <div class="col-sm-2" style="background-color:lavender;">.col-sm-2</div>
-  				</div>
-			
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#zPokemon">View Gallery</button>
+					<br>
+					<br>
+					<p class="p-gallery">Click on image in gallery to view PokePlaneteer Stats</p>
+					<div id="zPokemon" class="collapse">
+						<div class="container">
+							<div class="row">
+							    <div class="col-sm-2" style="background-color:lavender;"><img src="images/Wartortle.png"><br><button id="zGalleryWater" class="">Wartortle</button></div>
+							    <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2</div>
+							    <div class="col-sm-2" style="background-color:lavender;">.col-sm-2</div>
+							    <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2</div>
+							    <div class="col-sm-2" style="background-color:lavender;">.col-sm-2</div>
+			  				</div>
+						</div>
+					</div>
 	</div>
 
 	<div class="parallax-gallery">
@@ -146,23 +149,53 @@
 		</section>
 	</div>
 
-<!-- Forth Section: Pokemon Information -->
+<!-- Forth Section: Pokemon Stats -->
 	<div id="pokedex" class="container-text">
 		<section>
 			<div class="text-block text-allcenter">
 				<h1>Planeteer PokeDex</h1>
-			</div>
+				<div class="container">
+				<div class="row">
+						<div class="col-md-4" style="background-color:lavenderblush;">
+					      	<h2>Image Goes Here</h2>
+						</div>
+						<div class="col-md-8" style="background-color:lavender;">
+							<div class="row">
+								<div class="col-lg-12" style="background-color:lavenderblush;">
+									<h3>Title of Pokemon</h3>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-4" style="background-color:lavender;">
+									<h4>Stats</h4>
+									<div id="zGalleryBTN">
+										
+									</div>
+										
+									
+								</div>
+								<div class="col-sm-4" style="background-color:lavenderblush;">
+									<h4>Advanced Info</h4>
+									<span></span>
+								</div>
+								<div class="col-sm-4" style="background-color:lavender;">
+									<h4>Progress Bar</h4>
 
+						    	</div>							
+							</div>		
+						</div>	    
+  				</div>
+	  		</div>
+			</div>
 		</section>
-			
 	</div>
 
-<div class="parallax-pokeinfo">
-		<section>
-			<div>
-				<!-- popup info chat will go here -->
-			</div>
-		</section>
+	<div class="parallax-pokeinfo">
+			<section>
+				<div>
+					<!-- extra info popup will go here -->
+				</div>
+			</section>
 	</div>
 
 <!-- Fifth Section: Contact Me -->

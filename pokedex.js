@@ -178,8 +178,8 @@ $(document).ready(function() {
 	let zGalleryHeart = $('#zGalleryHeart'); //click on Mewtwo
 
 		//Pokemon Stats - Popup Table
-	let zname = $('#zname');
-	let zid = $('#zid');
+	let zName = $('#zName');
+	let zNum = $('#zNum');
 	let zImg = $('#zImg');
 	let zHeight = $('#zHeight');
 	let zWeight = $('#zWeight');
@@ -194,7 +194,6 @@ $(document).ready(function() {
 	let zPriority = $('#zPriority');
 	let zPower = $('#zPower');
 	let zAccurancy = $('#zAccurancy');
-
 
 		//Evolution - popup to display Evolution chart 
 	let zEvoEarth = $('#zEvoEarth');
@@ -221,100 +220,98 @@ $(document).ready(function() {
 
 
 
-	// //DEFINE A FUNCTION TO UPDATE HTML
-	// 	//Update Pokemon HTML
-	// 	function updatePHTML(PokemonPlaneteer){
-	// 		let thePlaneteers = spawnhellraiser.get(planeteers);
-	// 		pImg.attr('src', 'images/' + pokemon + '.png');
-	// 		name.text(myPlaneteers.name);
-	// 		img.attr('src',myPlaneteers.img); //Set
-	// 		id.text(myPlaneteers.id);
-	// 		pHeight.text(myPlaneteers.pHeight);
-	// 		pWeight.text(myPlaneteers.pWeight);
-	// 		hP.text(myPlaneteers.hP);
-	// 		attack.text(myPlaneteers.attack);
-	// 		sAttack.text(myPlaneteers.sAttack);
-	// 		defense.text(myPlaneteers.defense);
-	// 		sDefense.text(myPlaneteers.sDefense);
-	// 		speed.text(myPlaneteers.speed);
-	// 		abilities.text(myPlaneteers.abilities);
-	// 		moves.text(myPlaneteers.moves);
-	// 		priority.text(myPlaneteers.priority);
-	// 		power.text(myPlaneteers.power);
-	// 		accurancy.text(myPlaneteers.accurancy);
+	//DEFINE A FUNCTION TO UPDATE HTML
+		//Update Pokemon HTML
+		function updatePHTML(planeteers){
+			let myPlaneteers = spawnhellraiser.get(planeteers);
+			zImg.attr('src', 'images/' + planeteers + '.png');
+			zName.text(myPlaneteers.pName);
+			zNum.text(myPlaneteers.num);
+			zHeight.text(myPlaneteers.pHeight);
+			zWeight.text(myPlaneteers.pWeight);
+			zHp.text(myPlaneteers.hP);
+			zAttack.text(myPlaneteers.attack);
+			zSAttack.text(myPlaneteers.sAttack);
+			zDefense.text(myPlaneteers.defense);
+			zSDefense.text(myPlaneteers.sDefense);
+			zSpeed.text(myPlaneteers.speed);
+			zAbilities.text(myPlaneteers.abilities);
+			zMoves.text(myPlaneteers.moves);
+			// zPriority.text(myPlaneteers.priority);
+			// zPower.text(myPlaneteers.power);
+			// zAccurancy.text(myPlaneteers.accurancy);
 
-	// 	};
-	// 	//Update Trainer HTML
-	// 	function displayTrainer(trainer){
-	// 		zTname.text(trainer.name);
-	// 		zTimg.attr('src', 'images/trainer.jpg') //set image - done
-	// 		zTgender.text(trainer.gender);
-	// 		zTheight.text(trainer.myHeight);
-	// 		zTweight.text(trainer.myWeight);
-	// 		zTeyecolor.text(trainer.myEyeColor);
-	// 		zThaircolor.text(trainer.myLvl);
-	// 		zTlvl.text(trainer.myExp);
-	// 		zTbio.show(1500).css('display', 'flex');
+		};
+		//Update Trainer HTML
+		function displayTrainer(trainer){
+			zTname.text(trainer.myName);
+			zTimg.attr('src', 'images/trainer.jpg') //set image - done
+			zTgender.text(trainer.gender);
+			zTheight.text(trainer.myHeight);
+			zTweight.text(trainer.myWeight);
+			zTeyecolor.text(trainer.myEyeColor);
+			zThaircolor.text(trainer.myLvl);
+			zTlvl.text(trainer.myExp);
+			zTbio.show(1500).css('display', 'flex');
 
-	// 	};
+		};
 
-	// //DEFINE A FUNCTION TO DISPLAY POKEMON DATA
-	// 	function displayData(PokemonPlaneteer) {
-	// 		let pIcon = '#' + planeteers + 'Img'; //icon Set
-	// 		let pText = '#' + planeteers + 'Text';
-	// 		$(targetIcon).attr('src', 'images/').css('maxWidth', '76px');
-	// 		$(targetText).text('Not ready to fight! Let us warm up...');
-	// 		updatePHTML(planeteers);
-	// 		$(targetIcon).attr('src', 'images/' + planeteers + '.png');
-	// 		$(targetText).text(planeteers)
-	// 	};
-
-
-	//LISTEN FOR BUTTON RESPONSES TO RUN POKEMON DISPLAY FUNCTION
-		//Hover over images in gallery to display data
-		// .click(function() {
-		// 	displayData('');
-		// 	});
-
-		// .click(function() {
-		// 	displayData('');
-		// 	});
-
-		// .click(function() {
-		// 	displayData('');
-		// 	});
-
-		// .click(function() {
-		// 	displayData('');
-		// 	});
-
-		// .click(function() {
-		// 	displayData('');
-		// 	});
-
-		//click more details button in info table to show a popup
+	//DEFINE A FUNCTION TO DISPLAY POKEMON DATA
+		function displayData(planeteers) {
+			let pIcon = '#' + planeteers + 'Img'; //icon Set
+			let pText = '#' + planeteers + 'Text';
+			$(targetIcon).attr('src', 'images/').css('maxWidth', '76px');
+			$(targetText).text('Not ready to fight! Let us warm up...');
+			updatePHTML(planeteers);
+			$(targetIcon).attr('src', 'images/' + planeteers + '.png');
+			$(targetText).text(planeteers)
+		};
 
 
-		//click evolution button in info table to display an image gallery
+	LISTEN FOR BUTTON RESPONSES TO RUN POKEMON DISPLAY FUNCTION
+		Hover over images in gallery to display data
+		zGalleryEarth.click(function() {
+			displayData('lavitar');
+			});
+
+		zGalleryWater.click(function() {
+			// displayData('wartortle');
+			displayData('wartortle');
+			});
+
+		zGalleryWind.click(function() {
+			displayData('pidgey');
+			});
+
+		zGalleryFire.click(function() {
+			displayData('vulpix');
+			});
+
+		zGalleryHeart.click(function() {
+			displayData('mewtwo');
+			});
+
+		// click more details button in info table to show a popup
+
+
+		// click evolution button in info table to display an image gallery
 				
 
 
-	//LISTEN FOR BUTTON CLICKS TO RUN TRAINER DISPLAY FUNCTION
-		//
-		// zTrainerBtn.click(function() {
-			            
+	// LISTEN FOR BUTTON CLICKS TO RUN TRAINER DISPLAY FUNCTION
+		
+		zTrainerBtn.click(function() {
+	            displayTrainer(spawnhellraiser);
+
 			
-		// 		});
+				});
 
 
-	//LISTEN FOR BUTTON CLICKS FOR OTHER DISPLAYS
+	// LISTEN FOR BUTTON CLICKS FOR OTHER DISPLAYS
 
 
 
-		//butto
-
-
-		//button click for contact me
+		// button click for contact me
 
 
 

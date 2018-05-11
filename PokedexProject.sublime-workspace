@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"att",
+				"attack"
+			],
+			[
+				"zGal",
+				"zGalleryEarth"
+			],
+			[
+				"displa",
+				"displayTrainer"
+			],
+			[
+				"zH",
+				"zHp"
+			],
+			[
+				"zN",
+				"zNum"
+			],
+			[
+				"zI",
+				"zImg"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"lav",
+				"lavitar"
+			],
+			[
+				"p",
+				"pInfo"
+			],
+			[
 				"get",
 				"getInfo"
 			],
@@ -131,7 +167,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5946,
+				"buffer_size": 6519,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -140,7 +176,32 @@
 			"file": "pokedex.css",
 			"settings":
 			{
-				"buffer_size": 3260,
+				"buffer_size": 3530,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/index.html",
+			"settings":
+			{
+				"buffer_size": 10042,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.js",
+			"settings":
+			{
+				"buffer_size": 6233,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.css",
+			"settings":
+			{
+				"buffer_size": 1373,
 				"line_ending": "Windows"
 			}
 		},
@@ -148,7 +209,7 @@
 			"file": "pokedex.js",
 			"settings":
 			{
-				"buffer_size": 9626,
+				"buffer_size": 9519,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -279,7 +340,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -293,6 +354,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"container-fluid",
+			"vcenter",
+			"myName",
+			"num",
+			"pName",
 			">>",
 			"50",
 			"section",
@@ -322,6 +388,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"allcenter",
+			"name",
+			"id",
+			"name",
 			"container"
 		],
 		"reverse": false,
@@ -342,7 +412,66 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5946,
+						"buffer_size": 6519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2771,
+								2771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1597.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pokedex.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 886.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10042,
 						"regions":
 						{
 						},
@@ -356,52 +485,23 @@
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "pokedex.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3260,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3125.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "pokedex.js",
+					"buffer": 3,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9626,
+						"buffer_size": 6233,
 						"regions":
 						{
 						},
@@ -415,17 +515,83 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "pokedex.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8065,
+								8065
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4286.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "pokemon.js",
 					"semi_transient": false,
 					"settings":
@@ -449,14 +615,9 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -488,7 +649,7 @@
 		"cols":
 		[
 			0.0,
-			0.555327266249,
+			0.406802986761,
 			1.0
 		],
 		"rows":
@@ -506,7 +667,7 @@
 	"project": "PokedexProject.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -536,7 +697,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
