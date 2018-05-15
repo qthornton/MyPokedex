@@ -1,5 +1,4 @@
-$(document).ready(function() {	
-
+$(document).ready(function() {
 	//container object that stores trainer object and all Pokemon objects
 	class Trainer {
 		constructor(myName,gender,myHeight,myWeight,myEyeColor,myHairColor,myLvl,myExp,myBio,myPlaneteers) {
@@ -15,10 +14,10 @@ $(document).ready(function() {
 			this.myPlaneteers = [];
 		}
 
-
 		//custom method to return an array of Pokemon Objects, no param
-		all() { return this.myPlaneteers;}
-
+		all() { 
+			return this.myPlaneteers;
+		}
 
 		//custom method to return a Pokemon object with values for the Pokemon it found, 1 param
 		get(name) {
@@ -33,7 +32,6 @@ $(document).ready(function() {
 		} //closes get method
 
 	} //closes Class Trainer
-
 
 	//object that stores each Pokemon with properties
 	class PokemonPlaneteer {
@@ -126,12 +124,9 @@ $(document).ready(function() {
 			});
 
 	}; //close getInfo function
-	
 
 	//new instances for Trainer and Pokemon Objects
-	let spawnhellraiser = new Trainer('Spawnhellraiser', 'female', "5'4", '352lbs', 'brown', 'brown', 
-		4, 7000, 
-		'My nickname is Captain PokéPlanet. I play Pokémon X on Nintendo 3DS XL. Ive been training for 2 years.', this.myPlaneteers);
+	let spawnhellraiser = new Trainer('Spawnhellraiser', 'female', "5'4", '352lbs', 'brown', 'brown', 4, 7000, 'My nickname is Captain PokéPlanet. I play Pokémon X on Nintendo 3DS XL. Ive been training for 2 years.', this.myPlaneteers);
 	
 	let lavitar = new PokemonPlaneteer('lavitar',246);
 	let wartortle = new PokemonPlaneteer('wartortle',8);
@@ -152,7 +147,7 @@ $(document).ready(function() {
 	console.log(spawnhellraiser.myPlaneteers);
 
 	//DEFINE VALUES FOR ALL BUTTONS AND HTML
-		//Trainer Stats - popup table
+	//Trainer Stats - popup table
 	let zTrainerBtn = $('#zTrainerBtn');  //click on Trainer button to display data
 	let zTname = $('#zTname');
 	let zTimg = $('#zTimg');
@@ -166,18 +161,18 @@ $(document).ready(function() {
 	let zTbio = $('#zTbio');
 	let zTplaneteers = $('#zTplaneteers');
 
-		//Gallery
+	//Gallery
 	let zGalleryBtn = $('#zGalleryBtn'); //click on button to display Galllery of Pokemon
 
-		//Gallery Clicks
-		let z = $('z'); //template
+	//Gallery Clicks
+	let z = $('z'); //template
 	let zGalleryEarth = $('#zGalleryEarth'); //click on Lavitar to display table of stats,etc
 	let zGalleryWater = $('#zGalleryWater'); //click on Wartortle
 	let zGalleryWind = $('#zGalleryWind'); //click on Pidgey
 	let zGalleryFire = $('#zGalleryFire'); //click on Vulpix
 	let zGalleryHeart = $('#zGalleryHeart'); //click on Mewtwo
 
-		//Pokemon Stats - Popup Table
+	//Pokemon Stats - Popup Table
 	let zName = $('#zName');
 	let zNum = $('#zNum');
 	let zImg = $('#zImg');
@@ -195,21 +190,21 @@ $(document).ready(function() {
 	let zPower = $('#zPower');
 	let zAccurancy = $('#zAccurancy');
 
-		//Evolution - popup to display Evolution chart 
+	//Evolution - popup to display Evolution chart 
 	let zEvoEarth = $('#zEvoEarth');
 	let zEvoWater = $('#zEvoWater');
 	let zEvoWind = $('#zEvoWind');
 	let zEvoFire = $('#zEvoFire');
 	let zEvoHeart = $('#zEvoHeart');
 
-		//More Details - popups to display more stats
+	//More Details - popups to display more stats
 	let zMoreEarth = $('#zMoreEarth');
 	let zMoreWater = $('#zMoreWater');
 	let zMoreWind = $('#zMoreWind');
 	let zMoreFire = $('#zMoreFire');
 	let zMoreHeart = $('#zMoreHeart');
 
-		//more data - 
+	//more data - 
 	let zIntro = $('.zIntro'); //what you'll find button
 	let pInfo = $('.pInfo');
 	let zErrorBtnImg = $('#zErrorBtnImg');
@@ -218,102 +213,72 @@ $(document).ready(function() {
 	let trainerContainer = $('#trainerContainer');
 
 
+	//Update Trainer HTML
+	function displayTrainer(trainer){
+		zTname.text(trainer.myName);
+		zTimg.attr('src', 'images/trainer.jpg') //set image - done
+		zTgender.text(trainer.gender);
+		zTheight.text(trainer.myHeight);
+		zTweight.text(trainer.myWeight);
+		zTeyecolor.text(trainer.myEyeColor);
+		zThaircolor.text(trainer.myLvl);
+		zTlvl.text(trainer.myExp);
+		zTbio.show(1500).css('display', 'flex');
 
-
-	//DEFINE A FUNCTION TO UPDATE HTML
-		//Update Pokemon HTML
-		function updatePHTML(planeteers){
-			let myPlaneteers = spawnhellraiser.get(planeteers);
-			zImg.attr('src', 'images/' + planeteers + '.png');
-			zName.text(myPlaneteers.pName);
-			zNum.text(myPlaneteers.num);
-			zHeight.text(myPlaneteers.pHeight);
-			zWeight.text(myPlaneteers.pWeight);
-			zHp.text(myPlaneteers.hP);
-			zAttack.text(myPlaneteers.attack);
-			zSAttack.text(myPlaneteers.sAttack);
-			zDefense.text(myPlaneteers.defense);
-			zSDefense.text(myPlaneteers.sDefense);
-			zSpeed.text(myPlaneteers.speed);
-			zAbilities.text(myPlaneteers.abilities);
-			zMoves.text(myPlaneteers.moves);
-			// zPriority.text(myPlaneteers.priority);
-			// zPower.text(myPlaneteers.power);
-			// zAccurancy.text(myPlaneteers.accurancy);
-
-		};
-		//Update Trainer HTML
-		function displayTrainer(trainer){
-			zTname.text(trainer.myName);
-			zTimg.attr('src', 'images/trainer.jpg') //set image - done
-			zTgender.text(trainer.gender);
-			zTheight.text(trainer.myHeight);
-			zTweight.text(trainer.myWeight);
-			zTeyecolor.text(trainer.myEyeColor);
-			zThaircolor.text(trainer.myLvl);
-			zTlvl.text(trainer.myExp);
-			zTbio.show(1500).css('display', 'flex');
-
-		};
+	};
 
 	//DEFINE A FUNCTION TO DISPLAY POKEMON DATA
-		function displayData(planeteers) {
-			let pIcon = '#' + planeteers + 'Img'; //icon Set
-			let pText = '#' + planeteers + 'Text';
-			$(targetIcon).attr('src', 'images/').css('maxWidth', '76px');
-			$(targetText).text('Not ready to fight! Let us warm up...');
-			updatePHTML(planeteers);
-			$(targetIcon).attr('src', 'images/' + planeteers + '.png');
-			$(targetText).text(planeteers)
-		};
+	function displayData(planeteers) {
+		let pIcon = '#' + planeteers + 'Img'; //icon Set
+		let pText = '#' + planeteers + 'Text';
+		$(targetIcon).attr('src', 'images/').css('maxWidth', '76px');
+		$(targetText).text('Not ready to fight! Let us warm up...');
+		updatePHTML(planeteers);
+		$(targetIcon).attr('src', 'images/' + planeteers + '.png');
+		$(targetText).text(planeteers)
+	};
 
 
-	LISTEN FOR BUTTON RESPONSES TO RUN POKEMON DISPLAY FUNCTION
-		Hover over images in gallery to display data
-		zGalleryEarth.click(function() {
-			displayData('lavitar');
-			});
+	// LISTEN FOR BUTTON RESPONSES TO RUN POKEMON DISPLAY FUNCTION
+	// 	Hover over images in gallery to display data
+	zGalleryEarth.click(function() {
+		displayData('lavitar');
+	});
 
-		zGalleryWater.click(function() {
-			// displayData('wartortle');
-			displayData('wartortle');
-			});
+	zGalleryWater.click(function() {
+		// displayData('wartortle');
+		displayData('wartortle');
+	});
 
-		zGalleryWind.click(function() {
-			displayData('pidgey');
-			});
+	zGalleryWind.click(function() {
+		displayData('pidgey');
+	});
 
-		zGalleryFire.click(function() {
-			displayData('vulpix');
-			});
+	zGalleryFire.click(function() {
+		displayData('vulpix');
+	});
 
-		zGalleryHeart.click(function() {
-			displayData('mewtwo');
-			});
+	zGalleryHeart.click(function() {
+		displayData('mewtwo');
+	});
 
-		// click more details button in info table to show a popup
+	// click more details button in info table to show a popup
 
 
-		// click evolution button in info table to display an image gallery
+	// click evolution button in info table to display an image gallery
 				
 
 
 	// LISTEN FOR BUTTON CLICKS TO RUN TRAINER DISPLAY FUNCTION
 		
-		zTrainerBtn.click(function() {
-	            displayTrainer(spawnhellraiser);
-
-			
-				});
+	zTrainerBtn.click(function() {
+        displayTrainer(spawnhellraiser);
+	});
 
 
 	// LISTEN FOR BUTTON CLICKS FOR OTHER DISPLAYS
 
 
 
-		// button click for contact me
-
-
-
-		
-}); //End of AJAX Method
+	// button click for contact me
+});
