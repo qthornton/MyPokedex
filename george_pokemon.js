@@ -100,6 +100,8 @@ $(document).ready(function() {
 
 	let zGalleryWater = $("#zGalleryWater");
 	zGalleryWater.click(function() {
-		console.log(wartortle)
+		// step 1: use jQuery to get a handle on the elements we want to modify
+		// step 2: change the text of the elements to the data of wartortle
+		// example: someElement.text(wartortle.speed)
 	})
 });
