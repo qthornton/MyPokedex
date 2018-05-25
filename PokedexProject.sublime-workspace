@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"total",
+				"total_rooms"
+			],
+			[
+				"set",
+				"set_d"
+			],
+			[
+				"my",
+				"my_room"
+			],
+			[
+				"get",
+				"get_width"
+			],
+			[
+				"num",
+				"num_of_rooms"
+			],
+			[
+				"House",
+				"HouseBuilder"
+			],
+			[
+				"count",
+				"count_chars"
+			],
+			[
 				"att",
 				"attack"
 			],
@@ -38,10 +66,6 @@
 			[
 				"p",
 				"pInfo"
-			],
-			[
-				"get",
-				"getInfo"
 			],
 			[
 				"war",
@@ -104,10 +128,6 @@
 				"option\tTag"
 			],
 			[
-				"my",
-				"myLeoHoroscope"
-			],
-			[
 				"div",
 				"divDate"
 			],
@@ -164,61 +184,73 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/app_2.rb",
 			"settings":
 			{
-				"buffer_size": 6519,
+				"buffer_size": 227,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/public/index.js",
+			"settings":
+			{
+				"buffer_size": 27,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "pokedex.css",
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/public/styles.css",
 			"settings":
 			{
-				"buffer_size": 3530,
+				"buffer_size": 36,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/index.html",
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/layout.erb",
 			"settings":
 			{
-				"buffer_size": 10042,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.js",
-			"settings":
-			{
-				"buffer_size": 6233,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.css",
-			"settings":
-			{
-				"buffer_size": 1373,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pokedex.js",
-			"settings":
-			{
-				"buffer_size": 9519,
+				"buffer_size": 518,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "pokemon.js",
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/index.erb",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 86,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/about_us.erb",
+			"settings":
+			{
+				"buffer_size": 18,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/contact_us.erb",
+			"settings":
+			{
+				"buffer_size": 124,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/products.erb",
+			"settings":
+			{
+				"buffer_size": 26,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -267,16 +299,43 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokedex.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/app.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/app_2.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/views/contact_us.erb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/views/index.erb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/Gemfile",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/Gemfile",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/views/index.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 31/Gemfile",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 31/house_builder.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 30/sa_footage_workshop.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 30/house_footage_run.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/sei-demo-code/pet_shop_solution/pet_shop.rb",
+		"/C/Users/Anquinette/Downloads/house_builder.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/sei-demo-code/pet_shop_solution/q_pet_shop.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 29/queue.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 29/pet_shop.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/sei-demo-code/pet_shop_solution/Gemfile",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 29/Data_Structure_Queue.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 28/emoji_exercise.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 29/pyramid.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 29/pyramid_run.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 30/char_count.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 30/name_finder.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 30/name_finder_binary.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 28/norris-jokes/app.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 28/norris-jokes/chuck.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 28/gems_example/my_login.rb",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokemon.js",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokedex.js",
-		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.css",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.js",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/index.html",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokedex.css",
+		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/index.html",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 27/IntroRuby_Classes.rb",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 27/RubyWorkshop.rb",
 		"/C/Users/Anquinette/Desktop/demo.rb",
-		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/Captain PokePlanet/pokemon.js",
-		"/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.css",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokemon_Fellowship_Gym/index.html",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/script/main.js",
 		"/C/Users/Anquinette/Desktop/SEI April 2018/Pokedex Project/template.html",
@@ -340,7 +399,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -403,150 +462,203 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/app_2.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6519,
+						"buffer_size": 227,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2771,
-								2771
+								83,
+								83
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1597.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "pokedex.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3530,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								293,
-								295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 886.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/index.html",
+					"buffer": 1,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/public/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10042,
+						"buffer_size": 27,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								27,
+								27
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3125.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 18 - API/main.css",
+					"buffer": 2,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/public/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1373,
+						"buffer_size": 36,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								33,
+								33
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/layout.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/index.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/about_us.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/contact_us.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -554,62 +666,27 @@
 					},
 					"stack_index": 5,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "pokedex.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9519,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8065,
-								8065
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4286.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "pokemon.js",
+					"buffer": 7,
+					"file": "/C/Users/Anquinette/Desktop/SEI April 2018/Day 32/website/views/products.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 26,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								26,
+								26
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -649,7 +726,7 @@
 		"cols":
 		[
 			0.0,
-			0.406802986761,
+			0.399707174231,
 			1.0
 		],
 		"rows":
@@ -667,7 +744,7 @@
 	"project": "PokedexProject.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -697,14 +774,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":
